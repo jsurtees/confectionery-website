@@ -1,11 +1,11 @@
 html {
-  font-family: 'Raleway';
+  font-family: Raleway;
 }
 
 header, footer {
   background-color: #fe5d57;
   color: #fff;
-  font-family: 'Fascinate Inline';
+  font-family: "Fascinate Inline";
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Fascinate';
+  font-family: Fascinate;
   font-weight: normal;
   font-size: 3rem;
   line-height: 4rem;
@@ -26,16 +26,16 @@ h2 {
 
 h3 {
   color: #26d4ee;
-  font-family: 'raleway';
+  font-family: raleway;
 }
 
-p, caption, table, label, option{
-  font-family: 'Raleway';
+p, caption, table, label, option {
+  font-family: Raleway;
   font-weight: 600;
 }
 
 td {
-  font-weight: 400;
+  font-weight: lighter;
 }
 
 ul {
@@ -100,7 +100,7 @@ a:hover {
   border: 1px solid #26d4ee;
 }
 
-table, th, td{
+table, th, td {
   border: 3px solid #fe5d57;
   min-width: 30em;
 }
@@ -130,7 +130,7 @@ textarea {
 }
 
 button {
-  font-family: 'fascinate'
+  font-family: fascinate;
 }
 
 @media only screen and (min-width: 35em) {
@@ -140,7 +140,7 @@ button {
   }
 
   .questions {
-      background-size: 500px;
+    background-size: 500px;
   }
 
 }
@@ -152,7 +152,7 @@ button {
   }
 
   .questions {
-      background-size: 700px;
+    background-size: 700px;
   }
 
 }
@@ -164,7 +164,7 @@ button {
   }
 
   .questions {
-      background-size: 875px;
+    background-size: 875px;
   }
 
 }
