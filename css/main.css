@@ -1,0 +1,170 @@
+html {
+  font-family: 'Raleway';
+}
+
+header, footer {
+  background-color: #fe5d57;
+  color: #fff;
+  font-family: 'Fascinate Inline';
+}
+
+h1 {
+  display: inline;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Fascinate';
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.red-h2 {
+  color: #fe5d57;
+}
+
+h3 {
+  color: #26d4ee;
+  font-family: 'raleway';
+}
+
+p, caption, table, label, option{
+  font-family: 'Raleway';
+  font-weight: 600;
+}
+
+td {
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  padding-bottom: .375rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #fe5d57;
+  background-color: #fff;
+  text-shadow: .04em .04em black;
+  border-radius: 2px;
+}
+
+.banner {
+  background-image: url(../images/worms-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-top: 3px solid #fff;
+}
+
+.banner-content {
+  padding-top: 350px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.flower-background {
+  background-image: url(../images/flower-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.flower-background-content {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.littledots-background {
+  background-image: url(../images/littledots-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.littledots-background-content {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.img-flex {
+  border: 3px solid #26d4ee;
+}
+
+table, th, td{
+  border: 3px solid #fe5d57;
+  min-width: 30em;
+}
+
+td, th {
+  border: 1px solid #26d4ee;
+}
+
+.questions {
+  background-image: url(../images/form-candy.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 300px;
+
+}
+
+form {
+  border-color: #fe5d57;
+}
+
+input, select, textarea {
+  border: 2px solid #fe5d57;
+}
+
+textarea {
+  min-height: 140px;
+}
+
+button {
+  font-family: 'fascinate'
+}
+
+@media only screen and (min-width: 35em) {
+
+  a {
+    padding-bottom: .7em;
+  }
+
+  .questions {
+      background-size: 500px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  a {
+    padding-bottom: .75em;
+  }
+
+  .questions {
+      background-size: 700px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  a {
+    padding-bottom: .75em;
+  }
+
+  .questions {
+      background-size: 875px;
+  }
+
+}
