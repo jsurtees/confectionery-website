@@ -56,7 +56,7 @@ a:hover {
 }
 
 .banner {
-  background-image: url(../images/worms-background.jpg);
+  background-image: url("../images/worms-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,7 +71,7 @@ a:hover {
 }
 
 .flower-background {
-  background-image: url(../images/flower-background.jpg);
+  background-image: url("../images/flower-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .littledots-background {
-  background-image: url(../images/littledots-background.jpg);
+  background-image: url("../images/littledots-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,7 +110,7 @@ td, th {
 }
 
 .questions {
-  background-image: url(../images/form-candy.svg);
+  background-image: url("../images/form-candy.svg");
   background-position: right top;
   background-repeat: no-repeat;
   background-size: 300px;
